@@ -1,0 +1,24 @@
+{
+  "name": "lionlab",
+  "version": "1.0.0",
+  "description": "Lionlab Github Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "python -m SimpleHTTPServer",
+    "sass": "sass --watch ./public/sass:./public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HYLionLab/HYLionLab.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HYLionLab/HYLionLab.github.io/issues"
+  },
+  "homepage": "https://github.com/HYLionLab/HYLionLab.github.io#readme",
+  "dependencies": {
+    "sass": "^0.5.0"
+  }
+}

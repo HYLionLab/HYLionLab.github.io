@@ -1,0 +1,66 @@
+.indent {
+  padding-left: 20px; }
+
+header nav li {
+  display: inline;
+  list-style: none; }
+header .main-img {
+  position: relative;
+  padding: 200px 0;
+  background-image: url("../img/main-lion.jpg");
+  background-position: 0 -100px;
+  background-size: cover;
+  color: #fff;
+  text-align: center; }
+  header .main-img .main-nav {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px; }
+    header .main-img .main-nav a {
+      color: #fff;
+      text-decoration: none; }
+      header .main-img .main-nav a:active {
+        color: #fff;
+        text-decoration: none; }
+  header .main-img .main-logo {
+    width: 100px; }
+  header .main-img .main-title {
+    font-size: 4rem;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    padding-left: 20px; }
+  header .main-img .sub-title {
+    font-size: 1.8rem; }
+
+.container {
+  width: 100%;
+  margin: 0px;
+  padding: 0px; }
+  .container .section {
+    padding: 20px 50px;
+    color: #05345B;
+    background: #CACFD1; }
+    .container .section li {
+      list-style: none; }
+    .container .section.seoul {
+      background-image: url("../img/hanyang.jpg");
+      background-size: cover; }
+
+footer {
+  color: #CACFD1;
+  padding: 20px 10px;
+  background: #2C3234; }
+
+@media (max-device-width: 480px) {
+  header .main-img {
+    padding: 200px 0;
+    background-image: url("../img/main-lion.jpg");
+    background-size: cover;
+    background-position: -200px; }
+    header .main-img .main-title {
+      font-size: 3rem; }
+    header .main-img .sub-title {
+      font-size: 1em; } }
+
+/*# sourceMappingURL=main.css.map */
