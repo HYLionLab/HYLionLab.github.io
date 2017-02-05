@@ -31,7 +31,8 @@ header .main-img {
     text-transform: uppercase;
     padding-left: 20px; }
   header .main-img .sub-title {
-    font-size: 1.8rem; }
+    font-size: 1.8rem;
+    font-weight: 200; }
 
 .container {
   width: 100%;
@@ -48,18 +49,24 @@ header .main-img {
     .container .section.seoul {
       background-image: url("../img/hanyang.jpg");
       background-size: cover; }
-  .container .card-list .card {
-    width: 200px;
-    display: inline-block; }
-    .container .card-list .card .github_button {
-      float: right; }
+  .container .card-list {
+    text-align: center; }
+    .container .card-list .card {
+      display: inline-block; }
+      .container .card-list .card .github_button {
+        color: #2C3234; }
 
 footer {
   color: #CACFD1;
   padding: 20px 10px;
   background: #2C3234; }
 
-@media (max-device-width: 480px) {
+@media screen and (max-width: 3280px) {
+  .card {
+    width: 30%;
+    margin: 20px;
+    display: inline-block; } }
+@media screen and (max-width: 780px) {
   header .main-img {
     padding: 200px 0;
     background-image: url("../img/main-lion.jpg");
@@ -71,6 +78,7 @@ footer {
       font-size: 1em; }
 
   .container .card {
-    width: 100%; } }
+    width: 100%;
+    margin: 20px 0px; } }
 
 /*# sourceMappingURL=main.css.map */

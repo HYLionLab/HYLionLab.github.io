@@ -58,6 +58,7 @@ header {
 
     .sub-title {
       font-size: 1.8rem;
+      font-weight: 200;
     }
   }
 }
@@ -88,21 +89,21 @@ header {
   }
 
   .card-list {
+    text-align: center;
 
     .card {
-      width: 200px;
       display: inline-block;
 
+
+
       .github_button {
-        float: right;
+        color: $color-main-dark;
+        //float: right;
       }
     }
 
   }
 }
-
-
-
 
 footer {
   color: $color-gray;
@@ -110,7 +111,18 @@ footer {
   background: $color-main-dark;
 }
 
-@media (max-device-width: 480px) {
+// Desktop
+@media screen and (max-width:3280px) {
+
+  .card {
+    width: 30%;
+    margin: 20px;
+    display: inline-block;
+  }
+}
+
+
+@media screen and (max-width:780px) {
 
   header {
 
@@ -134,6 +146,7 @@ footer {
 
     .card {
       width: 100%;
+      margin: 20px 0px;
     }
   }
 }
