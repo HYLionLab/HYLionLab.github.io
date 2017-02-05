@@ -1,6 +1,7 @@
 @import './colors';
 
 
+
 .indent{
   padding-left: 20px;
 }
@@ -72,7 +73,7 @@ header {
     background: $color-gray;
 
     .title {
-
+      margin-bottom: 20px;
     }
 
     li {
@@ -83,10 +84,24 @@ header {
       //background-image: url("../img/hy-seoul.jpg");
       background-image: url("../img/hanyang.jpg");
       background-size: cover;
-      
     }
   }
+
+  .card-list {
+
+    .card {
+      width: 200px;
+      display: inline-block;
+
+      .github_button {
+        float: right;
+      }
+    }
+
+  }
 }
+
+
 
 
 footer {
@@ -113,6 +128,12 @@ footer {
         font-size: 1em;
       }
     }
+  }
 
+  .container {
+
+    .card {
+      width: 100%;
+    }
   }
 }

@@ -41,11 +41,18 @@ header .main-img {
     padding: 20px 50px;
     color: #05345B;
     background: #CACFD1; }
+    .container .section .title {
+      margin-bottom: 20px; }
     .container .section li {
       list-style: none; }
     .container .section.seoul {
       background-image: url("../img/hanyang.jpg");
       background-size: cover; }
+  .container .card-list .card {
+    width: 200px;
+    display: inline-block; }
+    .container .card-list .card .github_button {
+      float: right; }
 
 footer {
   color: #CACFD1;
@@ -61,6 +68,9 @@ footer {
     header .main-img .main-title {
       font-size: 3rem; }
     header .main-img .sub-title {
-      font-size: 1em; } }
+      font-size: 1em; }
+
+  .container .card {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
